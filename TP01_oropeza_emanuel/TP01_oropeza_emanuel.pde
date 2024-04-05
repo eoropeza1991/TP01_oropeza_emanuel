@@ -22,8 +22,15 @@ float resultado_4_A = 5.0 * 4.0 - (5 * 5) / 4.0 * 1.0;
 float resultado_4_B = 4.0 * 5.0 / (3 * 3);
 float resultado_4_C = (((5 + 1) / 2 * 4 + 10 ) * 3 * 5 ) - 6;
 
-println("El resultado es : " + resultado_4_A);
-println("El resultado es: " + resultado_4_B);
-println("El resultado es: " + resultado_4_C);
+
+// ejercicio 6
+
+int x=3, y=4, z=1;
+int R1 = y + z;
+
+boolean R2 = X >= R1;
+
+println("R1 = " + R1);
+println("R2 = " + R2);
 
 }
