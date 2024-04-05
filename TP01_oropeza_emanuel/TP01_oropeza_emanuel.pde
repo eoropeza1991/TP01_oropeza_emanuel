@@ -25,7 +25,7 @@ float resultado_4_C = (((5 + 1) / 2 * 4 + 10 ) * 3 * 5 ) - 6;
 
 // ejercicio 6
 
-int x=3, y=4, z=1;
+// int x=3, y=4, z=1;
 // int R1 = y + z;
 
 // boolean R2 = X >= R1;
@@ -38,7 +38,15 @@ int R1 = ++contador1;
 
 boolean R2 = contador1 < contador2;
 
-println("R1 = " + R1);
-println("R2 = " + R2);
+
+// ejercicio 8
+
+int a=31, b=-1, x=3, y=2;
+int resultado_8ab = a + b - 1;
+int resultado_8xy = x * y;
+
+boolean resultado_8 = resultado_8ab < resultado_8xy;
+
+println("Resultado: " + resultado_8);
 
 }
