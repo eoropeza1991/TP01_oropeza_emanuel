@@ -26,9 +26,17 @@ float resultado_4_C = (((5 + 1) / 2 * 4 + 10 ) * 3 * 5 ) - 6;
 // ejercicio 6
 
 int x=3, y=4, z=1;
-int R1 = y + z;
+// int R1 = y + z;
 
-boolean R2 = X >= R1;
+// boolean R2 = X >= R1;
+
+
+// ejercicio 7
+
+int contador1 = 3, contador2 = 4;
+int R1 = ++contador1;
+
+boolean R2 = contador1 < contador2;
 
 println("R1 = " + R1);
 println("R2 = " + R2);
